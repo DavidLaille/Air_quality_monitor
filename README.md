@@ -22,8 +22,9 @@ Sensors:
 * Temperature and humidity sensor: DHT22
 * Temperature and pressure sensor: Adafruit BMP280
 
-Communication:
+Communication and localization:
 * LoRa antenna: antenna 868 MHz with uFL connection
+* GPS module: 
 
 Other useful information:
 Anticipate by getting some electric wires and a board to connect all the devices. For more details, see the photos in the folder "electrical equipment".
@@ -33,11 +34,8 @@ You also need some basic software. First, an IDE to run and compile python and m
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+For our code, we used Atom IDE (version 1.34.0 - 64bits) with the plugin PyMakr 1.4.7. The plugin PyMakr allows to open a console window to see what is happening on your LoPy module. To connect your device rapidly, you can modify the settings of PyMakr (check the box "Autoconnect on USB").
 
-```
-Give examples
-```
 
 ### Installing
 
