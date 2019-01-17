@@ -43,7 +43,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Amine Alami** - *Initial work* - [Amine Alami](https://github.com/DavidLaille)
+* **Amine Alami** - *Initial work* - [Amine Alami](https://github.com/)
 * **David Laille** - *Initial work* - [David Laille](https://github.com/DavidLaille)
 
 
