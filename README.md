@@ -1,29 +1,78 @@
-# LoPy4
-In this repository, you will find micropython code to implement a connected air quality monitor.
+# Connected Air quality monitor
 
-This repository has been done for the realisation of an Air quality Monitor.
-It is part of the 5th year at INSA Toulouse (Innovative Smart Systems).
+The code presented in this repository has been implemented at the National Institute of Applied Science (INSA) of Toulouse.
+It is part of the training: Innovative Smart System.
+The team working on this project was composed of 2 electronics engineer: Amine Alami and David Laille
+and 3 computer engineers: Ting Chen, Clément Bravo and Tehema Teiti.
 
-The project consists in the realisation of a multiple gas sensor (MiCS-6814 for NH3, CO and NO2).
-It also includes a PM sensor (NovaPM) to detect 2.5µm and 10µm Particulate matter, and other common sensors (temperature, pressure, humidity).
+The project consists in the realisation of a connected air quality monitor, coupled with a user-friendly interface, here a website. The main objective of this projet is to provide a tool for citizens to monitor by themselves the air quality, especially in big cities.
 
-Script Name as Headline
+The air quality monitor gathers a PM sensor (Particulate Matter), a multichannel gas sensor which measure the concentration of ammonia (NH3), carbon monoxide (CO) and nitrogen dioxide (NO2). It also includes other common sensors, such as temperature, pressure and humidity.
 
-Script Name is a script for things. The usage is explained like this:
+Getting Started
 
-$ ./script parameter1 .. parameterN
- Output
-$ 
 
-Version
 
-    Version X.Y
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Prerequisites
 
-Contact
-Developer/Company
+What things you need to install the software and how to install them
 
-    Homepage:
-    e-mail:
-    Twitter: @twitterhandle
-    other communication/social media
+Give examples
 
+Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+Give the example
+
+And repeat
+
+until finished
+
+End with an example of getting some data out of the system or using it for a little demo
+Running the tests
+
+Explain how to run the automated tests for this system
+Break down into end to end tests
+
+Explain what these tests test and why
+
+Give an example
+
+And coding style tests
+
+Explain what these tests test and why
+
+Give an example
+
+Deployment
+
+Add additional notes about how to deploy this on a live system
+Built With
+
+    Dropwizard - The web framework used
+    Maven - Dependency Management
+    ROME - Used to generate RSS Feeds
+
+Contributing
+
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+Versioning
+
+We use SemVer for versioning. For the versions available, see the tags on this repository.
+Authors
+
+    Billie Thompson - Initial work - PurpleBooth
+
+See also the list of contributors who participated in this project.
+License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
+Acknowledgments
+
+    Hat tip to anyone whose code was used
+    Inspiration
+    etc
