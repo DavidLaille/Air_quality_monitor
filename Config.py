@@ -5,9 +5,9 @@
 #          app id  ???, dev id ???
 Network = 'TTN' # or 'WiFi'
 # OTAA keys
-dev_eui = "70B3D54992E58EE7"
-app_eui = "70B3D57ED00157A3"
-app_key = "E0F4E7E1C5B8F7DCDD5D01FCB2630D83"
+dev_eui = "70xxxxxxxxxxxxE7"
+app_eui = "70xxxxxxxxxxxxA3"
+app_key = "E0xxxxxxxxxxxxxxxxxxxxxxxxxxxx83"
 # ABP keys
 dev_addr  = "26xxxxF1"
 nwk_swkey = "E8xxxxxxxxxxxxxxxxxxxxxxxxxxxx9C"
