@@ -38,7 +38,7 @@ except:
   raise OSError("No dust sensor lib %s found" % dust)
 
 sampling = 20    # each sampling time take average of values
-interval = 5*60  # take very 5 minutes a sample over 60 seconds
+interval = 5*60  # take every 5 minutes a sample over 60 seconds
 
 try:
   from Config import calibrate
