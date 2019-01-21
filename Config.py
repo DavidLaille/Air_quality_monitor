@@ -85,3 +85,7 @@ Dext = '_cnt' # can be turned on/off by remote LoRa command
 #sleep_time = 5  # interval time between samples
 # calibration Taylor factors
 #calibrate = None # or e.g. { 'temperature': [-6.2,1], 'pm1': [-20.0,0.5], ...}
+
+#Pins for the multichannel gas sensors
+SDA_Multi = 'P22'
+SCL_Multi = 'P23'
