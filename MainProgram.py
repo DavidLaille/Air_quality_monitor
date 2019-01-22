@@ -1,3 +1,4 @@
+
 import socket
 import ubinascii
 import struct
@@ -8,7 +9,7 @@ import Config
 
 from machine import Pin, I2C
 from network import LoRa
-
+import gps_test2
 from SDS011 import SDS011
 #from dust_test import data as ddata
 import dust_test
@@ -23,6 +24,11 @@ lora = LoRa(mode=LoRa.LORAWAN, region=LoRa.EU868)
 app_eui = ubinascii.unhexlify('70B3D57ED00157A3')
 app_key = ubinascii.unhexlify('4EEE1610A5CB82390ED42D172BBE9EFD')
 
+GPS= gps_test2.GPS()
+print(GPS[0])
+print(GPS[1])
+print(GPS[2])
+'''
 
 while(True):
     #Dust Sensor
@@ -55,7 +61,7 @@ while(True):
 
 
     #DHT22 Sensor
-    th = DTH(Pin('P8', mode=Pin.OPEN_DRAIN),1)
+    th = DTH(Pin('P12', mode=Pin.OPEN_DRAIN),1)
     x=0
 
     try:
@@ -122,3 +128,4 @@ while(True):
     #receiveddata = s.recv(64)
     #print("received from LoRa:")
     #print(receiveddata)
+'''

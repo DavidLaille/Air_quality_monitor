@@ -1,3 +1,4 @@
+'''
 import socket
 import ubinascii
 import struct
@@ -55,7 +56,7 @@ while(True):
 
 
     #DHT22 Sensor
-    th = DTH(Pin('P8', mode=Pin.OPEN_DRAIN),1)
+    th = DTH(Pin('P12', mode=Pin.OPEN_DRAIN),1)
     x=0
 
     try:
@@ -122,3 +123,4 @@ while(True):
     #receiveddata = s.recv(64)
     #print("received from LoRa:")
     #print(receiveddata)
+'''
